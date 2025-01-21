@@ -1,6 +1,6 @@
 import sys
 def main():
-    list = sys.argv[1]
+    list = " ".join(sys.argv[1:])
     print(f"  {"_" * len(list)}")
     print(f"< {list} >")
     print(f"  {"-" * len(list)}")
